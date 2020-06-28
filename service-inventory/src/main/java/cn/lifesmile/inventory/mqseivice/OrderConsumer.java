@@ -41,8 +41,10 @@ public class OrderConsumer {
             Integer total = jsonObject.getInteger("total");
             String key = msg.getKeys();
 
+            //TODO
             //判读该事务ID是否已经处理成功，可以放入Redis或MySQL进行记录
-            //比如，已经减库存成功，但是发送Ack带MQ时，宕机了，MQ的消息没有被消费，就会出现重复消费
+            //比如，多消费者，消费者1已经处理该消息，但因为某些原因，超时未提交ACK
+            // 这时候消费者2会继续消费该消息，这里做个去重
 
             log.info("消费端消费消息，商品ID={},销售数量={}",productId,total);
             try {

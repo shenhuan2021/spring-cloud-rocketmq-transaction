@@ -1,4 +1,4 @@
-package com.oujiong.service.order.config;
+package cn.lifesmile.order.config;
 
 
 import lombok.Data;

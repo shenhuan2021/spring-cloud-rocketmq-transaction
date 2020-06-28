@@ -1,9 +1,8 @@
-package com.oujiong.service.order.mqservice;
+package cn.lifesmile.order.mqservice;
 
+import cn.lifesmile.order.service.ProduceOrderService;
 import com.alibaba.fastjson.JSONObject;
-import com.oujiong.service.order.service.ProduceOrderService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.ObjectUtils;
 import org.apache.rocketmq.client.producer.LocalTransactionState;
 import org.apache.rocketmq.client.producer.TransactionListener;
 import org.apache.rocketmq.common.message.Message;

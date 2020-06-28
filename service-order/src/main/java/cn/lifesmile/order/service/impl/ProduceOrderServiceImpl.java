@@ -1,8 +1,8 @@
-package com.oujiong.service.order.service.impl;
+package cn.lifesmile.order.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.oujiong.service.order.client.ProduceClient;
-import com.oujiong.service.order.service.ProduceOrderService;
+import cn.lifesmile.order.client.ProduceClient;
+import cn.lifesmile.order.service.ProduceOrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

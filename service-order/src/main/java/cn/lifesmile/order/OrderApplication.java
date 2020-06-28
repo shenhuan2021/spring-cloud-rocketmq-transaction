@@ -1,4 +1,4 @@
-package com.oujiong.service.order;
+package cn.lifesmile.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

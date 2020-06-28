@@ -1,4 +1,4 @@
-package com.oujiong.service.order.model;
+package cn.lifesmile.order.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

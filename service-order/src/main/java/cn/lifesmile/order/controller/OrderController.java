@@ -1,8 +1,8 @@
-package com.oujiong.service.order.controller;
+package cn.lifesmile.order.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.oujiong.service.order.config.Jms;
-import com.oujiong.service.order.mqservice.TransactionProducer;
+import cn.lifesmile.order.config.Jms;
+import cn.lifesmile.order.mqservice.TransactionProducer;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.SendResult;

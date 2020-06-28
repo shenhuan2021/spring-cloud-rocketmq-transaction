@@ -1,4 +1,4 @@
-package com.oujiong.service.order.client;
+package cn.lifesmile.order.client;
 
 
 import org.springframework.cloud.openfeign.FeignClient;
